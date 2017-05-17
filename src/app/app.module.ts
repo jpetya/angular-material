@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
@@ -12,6 +13,7 @@ import { AppRoutingModule } from './app.routing';
   ],
   imports: [
     BrowserModule,
+    NoopAnimationsModule,
     FormsModule,
     HttpModule,
     AppRoutingModule
